@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-import TestComp from './Pages/test'
+import JunComp from './Pages/Junction'
 
 function App(){
   return(
     <div className="App">
       <h1>Main Test</h1>
-      <TestComp/>
+      <JunComp/>
     </div>
   )
 }

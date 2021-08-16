@@ -10,7 +10,7 @@ export default function ProvingAPoint(){
 
 
     const getAllArtist = async () =>{
-	let obj = await axios.get('http://192.168.1.11:8000/api/artists')
+	let obj = await axios.get('http://localhost:8000/api/artists')
         let Artists = obj.data
         Setartistsdata(Artists)
 	//console.log(2, artistsdata)
